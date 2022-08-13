@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random User</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
     <div class="black-div">
@@ -13,34 +14,46 @@
     </div>
     <section class="container">
         <article class="image-div">
-            <img src="62.jpg" alt="profil">
+            <img class="img-profil" src="" alt="">
         </article>
-        <p class="label">My name is</p>
-        <h3 class="name-user">Connor Lewis</h3>
+        <p class="label"></p>
+        <h3 class="name-user"></h3>
         <nav class="nav-section">
-            <button class="btn" id="profil">
-                <img src="icons/profile.png" alt="">
+            <button class="btn" data-label="name">
+                <span class="material-symbols-outlined">
+                    person
+                </span>
             </button>
-            <button class="btn" id="email">
-                <img src="icons/emal.png" alt="">
+            <button class="btn" data-label="email">
+                <span class="material-symbols-outlined">
+                    drafts
+                </span>
             </button>
-            <button class="btn" id="age">
-                <img src="icons/age.png" alt="">
+            <button class="btn" data-label="age">
+                <span class="material-symbols-outlined">
+                    event_busy
+                </span>
             </button>
-            <button class="btn" id="map">
-                <img src="icons/map.png" alt="">
+            <button class="btn" data-label="map">
+                <span class="material-symbols-outlined">
+                    map
+                </span>
             </button>
-            <button class="btn" id="phone">
-                <img src="icons/phone.png" alt="">
+            <button class="btn" data-label="phone">
+                <span class="material-symbols-outlined">
+                    call
+                </span>
             </button>
-            <button class="btn" id="password">
-                <img src="icons/password.png" alt="">
+            <button class="btn" data-label="password">
+                <span class="material-symbols-outlined">
+                    lock_open
+                </span>
             </button>
         </nav>
         <div class="button-section">
             <button id="random-user">random user</button>
         </div>
     </section>
-    <script type="modale" src="app.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
