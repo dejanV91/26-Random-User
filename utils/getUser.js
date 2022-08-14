@@ -18,9 +18,9 @@ const getUser= async () => {
         password,
         age,
         name:`${first} ${last}`,
-        street: `${streetName} ${streetNumber}`,
+        street: `${streetNumber} ${streetName}`,
         image
     }
 }
 
-export default getUser();
+export default getUser;

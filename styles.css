@@ -42,6 +42,7 @@ body{
 .container{
     position: absolute;
     width: 70%;
+    height: 414.5px;
     max-width: 750px;
     display: flex;
     align-items: center;
@@ -70,6 +71,7 @@ body{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 50%;
     width: 150px;
+
 }
 
 .label{
@@ -79,11 +81,14 @@ body{
 }
 
 .name-user{
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-transform: capitalize;
     font-weight: 100;
     margin: 10px 10px 20px 10px;
-    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .nav-section{
@@ -99,15 +104,19 @@ body{
     cursor: pointer;
 }
 
-.btn span{
-    font-size: 32px;
+.material-symbols-outlined{
+    font-size: 32px !important;
     color: var(--silverDark);
     min-width: 100%;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
-.btn span:hover{
+.material-symbols-outlined:hover{
     color: var(--blue);
+}
+
+.active{
+    color: blue;
 }
 
 #random-user{
