@@ -33,7 +33,7 @@ function displayUser(person){
    });
 }
 // Event RANDOM GET USER
-showUser();
+window.addEventListener("DOMContentLoaded", showUser);
 randomButton.addEventListener("click", ()=>{
     let active = document.querySelector(".active");
     active.classList.remove("active");
