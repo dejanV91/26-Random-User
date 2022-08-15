@@ -1,5 +1,5 @@
-import getElement from "/utils/getElement.js"
-import getUser from "/utils/getUser.js"
+import getElement from "./utils/getElement.js";
+import getUser from "./utils/getUser.js";
 
 const imageDiv = getElement(".img-profil");
 const labelDiv = getElement(".label");
